@@ -1,4 +1,6 @@
 # Blind source separation
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wSBcYpbc8WwlzpSZDcGKvyuiqHrKmkow?usp=sharing)
+
 - The purpose of the project is to separate an image obtained as a sum of a two images into its components. 
 - The two images `img1` and `img2` summed together come from different dataset: `mnist` and `fashion_mnist`, respectively.
 - No preprocessing is allowed. The network takes in input the sum `img1+img2` and returns the predicted components `hat_img1` and `hat_img2`. 
